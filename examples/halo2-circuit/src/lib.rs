@@ -1,6 +1,8 @@
 pub mod circuits;
 pub mod generator;
 
+use codec::Encode;
+
 use std::io::BufReader;
 
 use generator::{gen_pk, gen_proof};
